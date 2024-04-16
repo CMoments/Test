@@ -1,0 +1,11 @@
+\section{}
+
+\begin{frame}{Solution}
+
+诈骗构造题。
+
+观察两个操作，发现是经典的线性变换。即若将数写成 $\begin{pmatrix}x\\1\end{pmatrix}$，则操作一等价于左乘 $\begin{pmatrix}a & 0 \\ 0 & 1\end{pmatrix}$，操作二等价于左乘 $\begin{pmatrix}1 & b \\ 0 & 1\end{pmatrix}$。
+
+对下面的两个线性变换张成的线性空间很明显是 $\begin{pmatrix}a^i & bF(a) \\ 0 & 1\end{pmatrix}$，其中 $F(a)$ 是 $a$ 的幂次张成的系数都为 $1$ 的多项式。此时再去乘起始的 $1$，则有 $x$ 的表达式为 $a^i+bF(a)$。好像还是和 $F(a)$ 有关？但注意到实际上 $F(a)$ 的常数项是任意的，即我们通过一直执行操作二使得加上任意数量的 $b$。于是再去除 $a^i$ 后，该空间的数必然是 $b$ 的倍数。排除了 $a=1$ 后，剩下来我们只需要枚举 $a^i$，判断是不是 $b$ 的倍数即可。时间复杂度 $\mathcal O(T\log n)$。
+
+\end{frame}

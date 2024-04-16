@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{添加路障}{3}{0}{1}
+\beamer@sectionintoc {2}{数字迷宫}{5}{0}{2}
+\beamer@sectionintoc {3}{征服之路}{7}{0}{3}
+\beamer@sectionintoc {4}{哈密顿绕行世界问题}{9}{0}{4}
+\beamer@sectionintoc {5}{大衣的有根树}{11}{0}{5}
+\beamer@sectionintoc {6}{女巫的数字法阵}{13}{0}{6}
+\beamer@sectionintoc {7}{小蓝的环}{15}{0}{7}
+\beamer@sectionintoc {8}{最优操作}{17}{0}{8}
+\beamer@sectionintoc {9}{建造国家}{19}{0}{9}
+\beamer@sectionintoc {10}{混境之地系列}{21}{0}{10}

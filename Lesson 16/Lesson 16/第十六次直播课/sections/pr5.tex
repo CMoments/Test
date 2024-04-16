@@ -1,0 +1,7 @@
+\section{阶乘的约数和}
+
+\begin{frame}{Solution}
+
+约数的和考虑每个质因子贡献即可，即若 $n=\prod p_i^{e_i}$，则 $n$ 的因数和为 $\prod \frac{p_i^{e_i+1}-1}{p_i-1}$。每个质因子在 $n!$ 中的出现次数是容易 $\mathcal O(\log n)$ 之内求出的，随便一种筛法都可以求出所有质因子，所以总时间复杂度为 $\mathcal O(n+C(n))$，$C(n)$ 为选择的筛法时间复杂度。
+
+\end{frame}
